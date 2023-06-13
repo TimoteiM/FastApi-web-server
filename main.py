@@ -2,8 +2,6 @@ from fastapi import FastAPI, HTTPException, Depends
 from routers import students_controller, grades_controller, user_controller
 
 
-import uuid
-
 app = FastAPI()
 
 
